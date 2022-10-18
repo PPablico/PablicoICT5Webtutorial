@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <style>
+
+            BODY{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: aqua;
+            }
+            *{
+                box-sizing: border-box;
+                margin: 0.5;
+                padding: 0;
+            }
+            .container{
+                height: 100%;
+                padding: 5px;
+                max-width: 600px;
+                width: 100%;
+                padding: 30px 35px;
+                border-radius: 5px;
+                background: linear-gradient(135deg, #71b7e6, #9b59b6);
+            }
+            input[type=text], input[type=email],input[type=number],input[type=password]{
+                width: 100%;
+                height: 20px;
+                padding: 20px;
+                margin: 5px 0px 3px 0;
+                display: inline-block;
+                border: none;
+                outline: none;
+                background: whitesmoke;
+            }
+            input[type=text]:focus, input[type=email]:focus,input[type=number]:focus,input[type=password]:focus{
+                background-color: #ddd;
+                outline: none;
+            }
+            .regisbtn{
+                background-color: turquoise;
+                color: black;
+                padding: 16px 20px;
+                margin: 8px;
+                cursor: pointer;
+                width: 25%;
+                opacity: 0.9;
+            }
+            .regisbtn:hover{
+                opacity: 1;
+            }
+            a{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <form>
+            <h1>Please Register</h1>
+            <hr />
+            <p><label>Name</label></p>
+            <input type="text" placeholder="Name"/>
+            <br />
+            <p><label>Middle Initial</label></p>
+            <input type="text" placeholder="M.I."/>
+            <br />
+            <p><label>Last Name</label></p>
+            <input type="text" placeholder="Last Name"/>
+            <br />
+            <p><label>Address</label></p>
+            <input type="text" placeholder="Address"/>
+            <br />
+            <p><label>Contact Number</label></p>
+            <input type="number" placeholder="Contact Number"/>
+            <br />
+            <p><label>Email Address</label></p>
+            <input type="email" placeholder="Email Address"/>
+            <br />
+            <p><label>Gender</label></p>
+            <input type="text" placeholder="Gender"/>
+            <br />
+            <p><label>Username</label></p>
+            <input type="text" placeholder="Enter Username"/>
+            <br />
+            <p><label>Password</label></p>
+            <input type="password" placeholder="Enter Password"/>
+            <br />
+            <p>By registering an account you agree to our <a href="#">Terms and Conditions</a></p>
+            <button class="regisbtn">Register</button>
+        </form>
+        </div>
+    </div>
+    </body>
+</html>

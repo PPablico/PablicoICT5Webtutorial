@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> PATRICK PABLICO</title>
+ <style>
+ * {
+  box-sizing: border-box;
+}
+			body{
+	margin: 0;
+	padding: 0;
+	background-color: #409aee;
+	height: 100vh;
+	background-size: 100%;
+			}
+	ul{
+	float:left;
+	list-style-type: none;
+	margin: 10px;
+}
+
+ul li{
+	display: inline-block;
+	font-family: 80px century gothic;
+	font-size: 25px;
+	color:  #fff;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 30px;
+	margin-bottom: 5px;
+	transition: 0.6s ease;
+}
+ul li a hover{
+	color: #fff;
+}
+.pro{
+	transition: transform 0.5s;
+}
+.pro:hover{
+	transform: translateY(-5px);
+}.pro1{
+	transition: transform 0.5s;
+}
+.pro1:hover{
+	transform: translateY(-5px);
+}
+.pro2{
+	transition: transform 0.5s;
+}
+.pro2:hover{
+	transform: translateY(-5px);
+}
+input[type=text], select, textarea {
+  	width: 100%;
+ 	  padding: 12px;
+  	border: 1px solid #ccc;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+	}
+
+input[type=submit] {
+ 	    background-color: #fff;
+ 	    color: #000;
+ 	    padding: 12px 20px;
+ 	    border: none;
+      cursor: pointer;
+	}
+
+input[type=submit]:hover {
+  	 background-color: #fff;
+	}
+.map{
+	   margin-top: 4px;
+  	 margin-bottom: 16px;
+}
+
+.container {
+	   color: #fff;
+	   font-family: century gothic;
+	   float: right;
+	   position: center;
+  	 border-radius: 5px;
+     background-color: #409aee;
+  	 padding: 10px;
+}
+
+.column {
+	   color: #fff;
+	   font-family: century gothic;
+  	 float: left;
+  	 width: 50%;
+  	 margin-top: 6px;
+  	 padding: 20px;
+	}
+
+.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+	}	
+
+@media screen and (max-width: 600px) {
+ .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+	}
+}
+</style>
+
+</head>
+  <body>
+<div class="container">
+  <nav style="text-align:right">
+    <h1>CONTACT ME</h1>
+    <p>Patrick Pablico, Future Educator</p>
+    <p>50 Sct. Fuentebella Brgy. Laging Handa, Quezon City</p>
+    <p>Email us at</p>
+    <p>patrick.pablico@tup.edu.ph</p>
+    <p>FOR INQUIRIES AND COMMENTS.</p>
+    <p>Please Call: 09153186869/09195634844</p>
+  </nav>
+  </div>
+  <div class="row">
+    <div class="column">
+           <div class="menu">
+    		<ul>
+				<li class="pro"><a href="Pablico Resume.html">HOME</a></li>
+				<li class="pro1"><a href="aboutme.html">GALLERY</a></li>
+                <li class="pro1"><a href="contact.html"></a>INQUIRIES</li>
+			</ul>
+    	</div>
+    <div class="mapping">
+		<h2>LOCATION</h2>
+	</div>
+      <nav class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.405697642216!2d121.02914931398982!3d14.632897180209335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b64d0d7f2c93%3A0x6d92b8d3f2a3505e!2s50%20Sct.%20Fuentebella%20St%2C%20Diliman%2C%20Quezon%20City%2C%201103%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1610064568674!5m2!1sen!2sph"  width="550" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></nav>
+      <img src="aboutmeimg/12.jpg" style="width:87%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">FIRST NAME</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">LAST NAME</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">PURPOSE</label>
+        <select id="country" name="country">
+          <option value="#">TUTORING</option>
+          <option value="#">TRAINING</option>
+          <option value="#">CODING EXERCISE</option>
+          <option value="#">EMPLOYMENT</option>
+        </select>
+        <label for="subject">INQUIRE</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:135px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    </body>
+</html> 
